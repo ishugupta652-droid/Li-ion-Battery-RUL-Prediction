@@ -28,7 +28,7 @@ This project tackles battery degradation in two phases:
 ### 4. Mathematical Optimization (GridSearchCV)
 * Utilized `imblearn Pipeline` to safely cross-validate the SMOTE-enhanced Random Forest, mathematically proving its limit.
 * Applied exhaustive GridSearch optimization to an **XGBoost Regressor**, tuning `learning_rate`, `max_depth`, and `n_estimators`.
-* **Result:** Successfully reduced the final Root Mean Squared Error (RMSE) for the RUL countdown from **41.30** down to **37.39**.
+* **Result:** Successfully reduced the final Root Mean Squared Error (RMSE) for the RUL countdown from **37.39** down to **30.29**.
 * **Feature Importance:** Extracted XGBoost feature importance to prove that `Capacity` and `ambient_temperature` are the dominant indicators of impending failure when the model is heavily regularized.
 
 ## Repository Contents
